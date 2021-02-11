@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+  --cor-red: red;
+  --cor-preta: black;
+}
+/*elementos base*/
+body{
+	background-color: var(--cor-preta);
+	font-family: 'Time New Roman', Times, sarif;
+	color: white;
+}
+
+header .container {
+	
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+header .logo {
+	color: var(--cor-red);
+	font-family: 'Arial black', Times;
+	font-size: 40px;
+	margin-left: 5px;
+}
+
+header nav a {
+
+	text-decoration: none;
+	color: #AAA;
+	margin-right: 10px;
+	font-family: 'Trebuchet MS', Arial, sans-serifi;
+}
+header nav a:hover {
+   color: white;
+}
+
+
+footer {
+	border-top: 8px solid #222;
+	margin-top: 20px;
+}
+.contato { color:#757575; font-family: 'Trebuchet MS', Arial, sans-serifi;margin: 15px 15px 16px 30px; }
+
+footer .container {
+	
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 90%;
+
+}
+.flex-item-1 {
+	flex: 1;
+}
+
+.item {
+	margin: 5px;
+	background: black;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+/* menu rodapé */
+ul#menu {
+background:black;
+margin:0;
+padding:0;
+list-style-type:none;
+text-align: left;
+}
+ul#menu li {
+	margin-bottom: 10px;
+}
+ul#menu li a:link, ul#menu li a:visited {
+display:block;
+text-decoration:none;
+font-family: 'Trebuchet MS', Arial, sans-serifi;
+font-size:14px;
+color:#757575;
+padding-left:5px;
+}
+ul#menu li a:hover {
+background:black;
+color:#757575;
+
+}
+
+/*Busca */
+section .container {
+	
+display: flex;
+flex-direction:  row;
+align-items: center;
+justify-content: center;
+width: 90%;
+}
+section .container input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 26px;
+  font-family: 'Trebuchet MS', Arial, sans-serifi;
+}
+section .container input[type=submit] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 26px;
+  color: white;
+  background-color: #e50914;
+  font-family: 'Trebuchet MS', Arial, sans-serifi;
+}
+.email { color:#FFFFFF; font-family: 'Trebuchet MS', Arial, sans-serifi; font-size: 16px; text-align: center; margin-top: 25px; }
+
+
+/*filme principal */
+
+.filme-principal {
+font-size: 16px;
+background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/capa-site.jpg');
+height: 680px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.filme-principal h3 {
+font-size: 40px;
+}
+.filme-principal p {
+font-size: 20px;
+}
+
+.filme-principal .descricao {
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+.filme-principal .titulo {
+	margin-top: 15%;
+	font-size: 40px;
+	font-family: 'Trebuchet MS', Arial, sans-serifi;
+}
+.botao {
+	background-color: rgba(0,0,0,50%);
+	border: none;
+	color: #FFF;
+	padding: 15px 30px;
+	margin-right: 12px;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 12px;
+}
+.botao:hover {
+	background-color: #FFF;
+	color: #000;
+
+}
+.botao i {
+	margin-right: 8px;
+}
+
+
+.container {
+	margin-left: 20px;
+}
+
+
+.filme-principal .container {
+	width: 70%;
+}
+
+.box-filme {
+	height: 100%;
+	width:100%;
+	display: block;
+}
+.carrosel-filmes {
+margin-top: 5px;
+}

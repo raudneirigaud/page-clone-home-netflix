@@ -1,0 +1,27 @@
+@media screen and (max-width:700px){
+
+header .container {
+display: flex;
+flex-direction: column;
+}
+footer .container {
+display: flex;
+flex-direction: column;
+}
+.flex-item-1 {
+	flex: 1;
+}
+
+.item {
+	margin: 5px;
+	background: black;
+	text-align: center;
+	font-size: 1.5em;
+	width: 164px;
+}
+.botao {
+	margin-top: 5px;
+	width: 190px;
+	height: 60px;
+}
+}
