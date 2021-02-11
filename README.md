@@ -9,6 +9,6 @@ Tecnologias usadas
 
 ## Full Page Screen Capture
 
-![](C:\clonepagenetflixhome\images\screencapture-clonepagenetflixhome.png)
+![](https://github.com/raudneirigaud/page-clone-home-netflix/blob/master/images/screencapture-clonepagenetflixhome.png)
 
 Autor: Raudnei 
